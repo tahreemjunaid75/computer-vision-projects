@@ -1,0 +1,19 @@
+# Runtime dependencies used by the project notebooks
+gdown
+google-colab
+importlib-resources
+ipython
+matplotlib
+numpy
+opencv-python
+pandas
+Pillow
+pycocotools
+PyYAML
+scikit-image
+scikit-learn
+scipy
+tensorflow
+tensorflow-datasets
+torch
+ultralytics
