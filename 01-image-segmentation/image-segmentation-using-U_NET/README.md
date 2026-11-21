@@ -1,10 +1,10 @@
-# Pet Image Segmentation with U-Net
+# Oxford-IIIT Pet Semantic Segmentation with TensorFlow U-Net
 
 ![Python-3.10%2B](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square) ![TensorFlow](https://img.shields.io/badge/TensorFlow-blueviolet?style=flat-square) ![TensorFlow Datasets](https://img.shields.io/badge/TensorFlow%20Datasets-blueviolet?style=flat-square) ![NumPy](https://img.shields.io/badge/NumPy-blueviolet?style=flat-square) ![Matplotlib](https://img.shields.io/badge/Matplotlib-blueviolet?style=flat-square) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tahreemjunaid75/computer-vision-projects/blob/main/01-image-segmentation/image-segmentation-using-U_NET/Image_Segmentation_using_U_Net_built_with_TensorFlow_Keras.ipynb)
 
 ## Overview
 
-This notebook trains a semantic segmentation model to separate pet foreground, background, and boundary pixels in Oxford-IIIT Pet images. A custom U-Net predicts a three-class mask at 128 x 128 resolution, with visual predictions and an independent test evaluation.
+This semantic segmentation project trains a custom TensorFlow U-Net on Oxford-IIIT Pet images to predict foreground, background, and boundary masks. It reports independent test accuracy, loss, and mean IoU.
 
 ## Methodology & Pipeline
 

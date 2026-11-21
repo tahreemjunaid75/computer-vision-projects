@@ -1,10 +1,10 @@
-# Hough Transforms for Circle and Line Detection
+# OpenCV Hough Circle and Line Detection
 
 ![Python-3.10%2B](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-blueviolet?style=flat-square) ![NumPy](https://img.shields.io/badge/NumPy-blueviolet?style=flat-square) ![Matplotlib](https://img.shields.io/badge/Matplotlib-blueviolet?style=flat-square) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tahreemjunaid75/computer-vision-projects/blob/main/06-classical-cv/Hough%20transformation/Hough_Transforms_%28Feature_Extraction%29_in_computer_vision.ipynb)
 
 ## Overview
 
-Applies Hough voting to detect circular coin boundaries and straight road markings. The notebook compares standard and probabilistic line detection and tunes circle detection parameters.
+This Python and OpenCV Hough-transform workflow detects circular coin boundaries and straight road markings. It compares standard and probabilistic line detection and shows how circle-detection tuning changes the number of detections.
 
 ## Methodology & Pipeline
 

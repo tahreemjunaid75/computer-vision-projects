@@ -1,10 +1,10 @@
-# Motion Estimation and Optical Flow
+# OpenCV Motion Estimation and Optical Flow
 
 ![Python-3.10%2B](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-blueviolet?style=flat-square) ![NumPy](https://img.shields.io/badge/NumPy-blueviolet?style=flat-square) ![Matplotlib](https://img.shields.io/badge/Matplotlib-blueviolet?style=flat-square) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tahreemjunaid75/computer-vision-projects/blob/main/07-motion-estimation/Optical_Flow_and_Motion_Estimation_in_Computer_Vision.ipynb)
 
 ## Overview
 
-Studies image motion from a video frame pair using block matching, sparse and dense optical flow, and the optical-flow constraint. The notebook visualizes moving regions and compares full-vector estimates with the aperture-limited normal flow.
+This Python and OpenCV motion-estimation project compares SSD/SAD block matching, Lucas-Kanade sparse flow, Farneback dense flow, and Horn-Schunck flow. It visualizes motion vectors and thresholded moving regions when a video is available.
 
 ## Methodology & Pipeline
 

@@ -4,7 +4,7 @@
 
 ## Overview
 
-Fine-tunes a pretrained YOLO11 small detector to identify defensive structures and other objects in Clash of Clans base screenshots. The notebook first demonstrates pretrained COCO inference and confidence filtering, then evaluates the custom 16-class model.
+This Python and Ultralytics YOLO11 object detection project fine-tunes YOLO11s on 16 Clash of Clans structure classes. It includes validation precision, recall, mAP, and confidence-threshold inference examples.
 
 ## Methodology & Pipeline
 

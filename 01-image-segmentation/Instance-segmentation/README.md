@@ -1,10 +1,10 @@
-# Concrete Defect Instance Segmentation with YOLO11
+# Concrete Defect Instance Segmentation with Ultralytics YOLO11
 
 ![Python-3.10%2B](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square) ![Ultralytics YOLO11](https://img.shields.io/badge/Ultralytics%20YOLO11-blueviolet?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-blueviolet?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-blueviolet?style=flat-square) ![NumPy](https://img.shields.io/badge/NumPy-blueviolet?style=flat-square) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tahreemjunaid75/computer-vision-projects/blob/main/01-image-segmentation/Instance-segmentation/Instance_Segmentation_of_Concrete_Defects_using_YOLO11.ipynb)
 
 ## Overview
 
-This project converts COCO polygon annotations for concrete surface defects into YOLO segmentation labels, then trains an instance segmentation model. The goal is to localize and outline cracks and other visible defects for automated inspection.
+This Python and Ultralytics YOLO11 instance segmentation project converts COCO concrete-defect annotations to YOLO labels and trains a model to outline cracks and other surface defects. It reports box and mask mAP on a held-out test split.
 
 ## Methodology & Pipeline
 

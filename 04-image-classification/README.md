@@ -1,16 +1,16 @@
-# MNIST and Pet Image CNN Comparisons
+# MNIST and Oxford-IIIT Pet Image Classification with CNNs
 
 ![Python-3.10%2B](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square) ![TensorFlow/Keras](https://img.shields.io/badge/TensorFlow%2FKeras-blueviolet?style=flat-square) ![NumPy](https://img.shields.io/badge/NumPy-blueviolet?style=flat-square) ![Matplotlib](https://img.shields.io/badge/Matplotlib-blueviolet?style=flat-square) ![scikit-learn](https://img.shields.io/badge/scikit-learn-blueviolet?style=flat-square) ![TensorFlow Datasets](https://img.shields.io/badge/TensorFlow%20Datasets-blueviolet?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-blueviolet?style=flat-square) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tahreemjunaid75/computer-vision-projects/blob/main/04-image-classification/MNIST_Digit_Classification.ipynb)
 
 ## Overview
 
-The notebook contains two classification studies: fully connected/CNN/augmented CNN models on a balanced MNIST subset, followed by basic, deeper, and wider CNN comparisons on Oxford-IIIT Pet. It demonstrates how architecture and training behavior differ across grayscale digits and 37-class natural images.
+This Python and TensorFlow/Keras image-classification benchmark compares dense, convolutional, and augmented models on balanced MNIST digits, then tests basic, deeper, and wider CNNs on 37 Oxford-IIIT Pet classes. It reports held-out accuracy and loss.
 
 ## Methodology & Pipeline
 
 - **Dataset/Input Data:** MNIST balanced subset: 1,000 training examples (100 per digit), 200 test examples (20 per digit), with an 800/200 train/validation split. The later Oxford-IIIT Pet experiment uses 37 classes with official train/test data and an 80/20 split of the training partition.
 - **Preprocessing:** MNIST grayscale values are normalized to [0,1] and channel-expanded; training augmentation uses random rotation/translation (0.08), zoom +/-0.1, contrast 0.2, and horizontal flip. Pet images resize to 64x64, normalize to [0,1], and batch/prefetch at 32.
-- **Model/Algorithm:** MNIST dense baseline (128 ReLU, dropout 0.2, 10-way softmax), CNN (3x3 conv, 16/32 filters, max pooling, 64-unit dense head), and augmented CNN. Pet task compares basic, deeper, and wider from-scratch CNNs with 3x3 convolutions and 2x2 pooling.
+- **Model/Algorithm:** MNIST dense baseline (128 ReLU, dropout 0.2, 10-way softmax), CNN (3x3 conv, 16/32 filters, max pooling, 64-unit dense head), and augmented CNN. Pet classification experiment compares basic, deeper, and wider from-scratch CNNs with 3x3 convolutions and 2x2 pooling.
 - **Hyperparameters/Key Parameters:** MNIST models use Adam and sparse categorical cross-entropy, up to 15 epochs, batch 32; early stopping monitors `val_loss` (patience 3, restore best weights), though the augmented fit call leaves callbacks commented out. Pet models train 10 epochs, batch 32, input 64x64.
 
 ## Key Results & Observations

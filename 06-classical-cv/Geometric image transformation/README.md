@@ -1,10 +1,10 @@
-# Geometric Image Transformations
+# OpenCV Affine and Perspective Image Transformations
 
 ![Python-3.10%2B](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-blueviolet?style=flat-square) ![NumPy](https://img.shields.io/badge/NumPy-blueviolet?style=flat-square) ![Matplotlib](https://img.shields.io/badge/Matplotlib-blueviolet?style=flat-square) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tahreemjunaid75/computer-vision-projects/blob/main/06-classical-cv/Geometric%20image%20transformation/Geometric_Image_Transformations.ipynb)
 
 ## Overview
 
-Explores how affine transformations, interpolation, and projective warping change image geometry. Side-by-side comparisons show why matrix composition order matters and how interpolation affects upscaled detail.
+This Python and OpenCV image-transformation project compares affine scale, rotation, and translation order, four 2x interpolation methods, and four-point perspective homography. Side-by-side outputs make geometric and interpolation effects easy to inspect.
 
 ## Methodology & Pipeline
 

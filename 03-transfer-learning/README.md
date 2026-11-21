@@ -1,10 +1,10 @@
-# Transfer Learning and Fine-Tuning of Pretrained CNNs
+# MNIST and CIFAR-10 Transfer Learning with Pretrained CNNs
 
 ![Python-3.10%2B](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square) ![TensorFlow/Keras](https://img.shields.io/badge/TensorFlow%2FKeras-blueviolet?style=flat-square) ![NumPy](https://img.shields.io/badge/NumPy-blueviolet?style=flat-square) ![Matplotlib](https://img.shields.io/badge/Matplotlib-blueviolet?style=flat-square) ![scikit-learn](https://img.shields.io/badge/scikit-learn-blueviolet?style=flat-square) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tahreemjunaid75/computer-vision-projects/blob/main/03-transfer-learning/Transfer_Learning_and_Fine_Tuning_using_Pretrained_Deep_Convolutional_Neural_Networks_%28CNNs%29.ipynb)
 
 ## Overview
 
-The notebook has two transfer-learning studies: DenseNet121 on MNIST, then VGG16, ResNet50, MobileNetV2, and DenseNet121 on CIFAR-10. Each study replaces the ImageNet classifier with a task-specific head, then fine-tunes selected backbone layers.
+This Python and TensorFlow/Keras transfer-learning project evaluates DenseNet121 on MNIST and VGG16, ResNet50, MobileNetV2, and DenseNet121 on CIFAR-10. It compares frozen-backbone and fine-tuned test performance.
 
 ## Methodology & Pipeline
 

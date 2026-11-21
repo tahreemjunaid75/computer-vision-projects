@@ -1,10 +1,10 @@
-# Feature Matching and Panorama Stitching
+# SIFT Feature Matching and OpenCV Panorama Stitching
 
 ![Python-3.10%2B](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-blueviolet?style=flat-square) ![NumPy](https://img.shields.io/badge/NumPy-blueviolet?style=flat-square) ![Matplotlib](https://img.shields.io/badge/Matplotlib-blueviolet?style=flat-square) ![scikit-image](https://img.shields.io/badge/scikit-image-blueviolet?style=flat-square) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tahreemjunaid75/computer-vision-projects/blob/main/06-classical-cv/panorama/Feature_Detection%2C_Image_Matching%2C_and_Image_Stitching_%28Panorama_Creation%29.ipynb)
 
 ## Overview
 
-Finds local features in overlapping photographs, matches descriptors, estimates a projective alignment, and blends the warped views into a panorama. It also explores Harris corners and HOG descriptors as feature representations.
+This Python and OpenCV panorama pipeline matches SIFT descriptors between overlapping photographs and estimates a RANSAC homography to align and blend them. It also compares Harris corner detection and HOG descriptors.
 
 ## Methodology & Pipeline
 
